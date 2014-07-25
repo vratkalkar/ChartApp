@@ -23,8 +23,16 @@ body {
 	background: $background;
 }
 
-canvas {
-	margin-left:2em;
+#weeklyGoal {
+	margin-left:1.5em;
+}
+
+#monthlyGoal {
+	margin-left:1.5em;
+}
+
+#annualGoal {
+	margin-left:1.5em;
 }
 
 h1, h2, h3, h4, h5, h6, .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
@@ -123,6 +131,10 @@ h2 {
        color:$gray!important;
      }
    }
+ }
+
+ canvas #runTotal {
+   margin-right: 1em;
  }
 
  .panel h3.week {
